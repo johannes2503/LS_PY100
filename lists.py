@@ -22,6 +22,7 @@
 
 # # Last Element
 
+
 # ## Version 1
 
 # def last(lst):
@@ -51,7 +52,29 @@
 
 # print(energy)
 
+
 # Alphabet
+
+
+# Version 1
+
+# alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+# split = list(alphabet)
+
+# print(split)
+
+# Version 2 - Solution
+
+# print(list(alphabet))
+
+
+# Filter
+
+
+scores = [96, 47, 113, 89, 100, 102]
+
+
 
 
 
