@@ -168,3 +168,40 @@
 
 # contains('Barcelona', destinations)  # True
 # contains('Nashville', destinations)  # False
+
+
+
+# Passcode
+
+# Version 1
+
+# passcode = ['11', 'jZ5', 'hQ3f*', '8!7g3', 'p3Fs']
+
+# # Write some code here.
+# # Expected output: 11-jZ5-hQ3f*-8!7g3-p3Fs
+
+# print('-'.join(passcode))
+
+
+
+# Checking items off the grocery list
+
+# Version 1 
+
+# grocery_list = ['paprika', 'tofu', 'garlic', 'quinoa',
+#                 'carrots', 'broccoli', 'hummus']
+
+# Your code.
+# def items_off():
+#     for i in range(len(grocery_list)):
+#         del grocery_list[-1]
+#         print(grocery_list)
+               
+
+# items_off()
+
+# Version 2 - Solution
+
+# while grocery_list:
+#     checked_item = grocery_list.pop(0)
+#     print(checked_item)
